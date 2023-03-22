@@ -28,7 +28,7 @@ namespace date_picker
         {
             InitializeComponent();
 
-            BlogPost bp = new BlogPost("Header 1", "Body 1");
+            BlogPost bp = new BlogPost( "current ", " Day");
 
             runDisplay.Text = bp.ToString();
         }
