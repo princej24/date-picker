@@ -36,7 +36,7 @@ namespace date_picker
         {
 
 
-            DateTime date = new DateTime(2023, 2, 15);
+         
             DateTime now = DateTime.Now;
 
 
@@ -89,19 +89,30 @@ namespace date_picker
 
             if (age >= ageToDrive)
             {
+                Console.WriteLine("");
                 runDisplay.Text += "you are old enough to drive\n ";
+                Console.WriteLine("");
+
             }
 
 
             if (age >= ageToDrink)
             {
+                Console.WriteLine("");
+
                 runDisplay.Text += "you are old enough to drink \n ";
+                Console.WriteLine("");
+
             }
 
 
             if (age >= ageToVote)
             {
+                Console.WriteLine("");
+
                 runDisplay.Text += "you are old enough to vote \n  ";
+                Console.WriteLine("");
+
             }
         }
 
