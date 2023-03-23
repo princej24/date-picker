@@ -64,7 +64,7 @@ namespace date_picker
         {
             DateTime bday = BirthdayObject();
 
-            runDisplay.Text = $"Your Birthday is {bday}";
+            runDisplay.Text = $"Your year of birth is {bday}";
         }
         public DateTime BirthdayObject()
         {
@@ -85,23 +85,23 @@ namespace date_picker
             TimeSpan ageInDays = now - bday;
             int age = (int)(ageInDays.Days / 365.25);
 
-            runDisplay.Text = $"you are {age} old\n";
+            runDisplay.Text = $"you are {age} years old :)\n";
 
             if (age >= ageToDrive)
             {
-                runDisplay.Text += "you are old enough to drive";
+                runDisplay.Text += "you are old enough to drive\n ";
             }
 
 
             if (age >= ageToDrink)
             {
-                runDisplay.Text += "you are old enough to drink";
+                runDisplay.Text += "you are old enough to drink \n ";
             }
 
 
             if (age >= ageToVote)
             {
-                runDisplay.Text += "you are old enough to vote";
+                runDisplay.Text += "you are old enough to vote \n  ";
             }
         }
 

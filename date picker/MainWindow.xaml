@@ -27,7 +27,7 @@
             <TextBox x:Name="txtMonth" HorizontalAlignment="Left" Margin="26,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142"/>
             <Label Content="Year" HorizontalAlignment="Left" Margin="26,169,0,0" VerticalAlignment="Top" Width="86" RenderTransformOrigin="0.512,-0.474" FontSize="18" Foreground="White"/>
             <TextBox x:Name="txtYear" HorizontalAlignment="Left" Margin="26,203,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142"/>
-            <Button x:Name="btnDisplayTime" Content="Display Time" HorizontalAlignment="Left" Margin="130,298,0,0" VerticalAlignment="Top" Width="120" Height="33" Foreground="Black" Click="btnDisplayTime_Click"/>
+            <Button x:Name="btnDisplaybd" Content="Display bithday" HorizontalAlignment="Left" Margin="130,298,0,0" VerticalAlignment="Top" Width="120" Height="33" Foreground="Black" Click="btnDisplayTime_Click"/>
             <Button x:Name="btnCheckAgeForLicense" Content="Drivers License" HorizontalAlignment="Left" Margin="5,298,0,0" VerticalAlignment="Top" Height="33" Width="120" Click="Button_Click"/>
             <DatePicker x:Name="dpDate" HorizontalAlignment="Left" Margin="78,21,0,0" VerticalAlignment="Top" Height="31"/>
             <Calendar x:Name="calDate" HorizontalAlignment="Left" Margin="227,116,0,0" VerticalAlignment="Top" Height="168" Width="192"/>
